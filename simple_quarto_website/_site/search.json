@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "This page shows the required elements for Component 4.\nWe cite Bishop [@bishop2006pattern] and Friedman–Hastie–Tibshirani [@friedman2001elements].\n\n“Clear structure and reproducibility are key to professional data science.”\n\n\n\n\nMathematic example\n\nGraduation day\n\nProfessional goal moving forward\n\nInline math example: \\(E = mc^2\\)\nDisplay equation:\n\\[\n\\mathrm{argmin}_{\\theta} \\; \\mathcal{L}(\\theta) = \\frac{1}{n}\\sum_{i=1}^{n} \\ell\\big(f_\\theta(x_i), y_i\\big)\n\\]\nA simple markdown table:\n\n\n\nMetric\nTrain\nTest\n\n\n\n\nAcc.\n0.94\n0.91\n\n\nF1\n0.92\n0.89\n\n\n\nA footnote reference.1\n\n\n\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit.\n\n\n\n\nSuspendisse potenti. Nam malesuada eros vitae posuere nunc.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nflowchart LR A[Data] –&gt; B[Preprocess] B –&gt; C{Model?} C –&gt;|Classical| D[Logistic Regression] C –&gt;|Tree| E[Random Forest] D –&gt; F[Evaluate] E –&gt; F"
+  },
+  {
+    "objectID": "index.html#overview",
+    "href": "index.html#overview",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "Mathematic example\n\nGraduation day\n\nProfessional goal moving forward\n\nInline math example: \\(E = mc^2\\)\nDisplay equation:\n\\[\n\\mathrm{argmin}_{\\theta} \\; \\mathcal{L}(\\theta) = \\frac{1}{n}\\sum_{i=1}^{n} \\ell\\big(f_\\theta(x_i), y_i\\big)\n\\]\nA simple markdown table:\n\n\n\nMetric\nTrain\nTest\n\n\n\n\nAcc.\n0.94\n0.91\n\n\nF1\n0.92\n0.89\n\n\n\nA footnote reference.1"
+  },
+  {
+    "objectID": "index.html#two-column-section",
+    "href": "index.html#two-column-section",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.\n\n\n\n\nSuspendisse potenti. Nam malesuada eros vitae posuere nunc."
+  },
+  {
+    "objectID": "index.html#diagram-h2",
+    "href": "index.html#diagram-h2",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "flowchart LR A[Data] –&gt; B[Preprocess] B –&gt; C{Model?} C –&gt;|Classical| D[Logistic Regression] C –&gt;|Tree| E[Random Forest] D –&gt; F[Evaluate] E –&gt; F"
+  },
+  {
+    "objectID": "index.html#footnotes",
+    "href": "index.html#footnotes",
+    "title": "simple_quarto_website",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nThe graduation images and video included in this page are from my own ceremony, serving as both a personal milestone and a professional motivation to continue excelling in data science.↩︎"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "slides/slides.html#introduction",
+    "href": "slides/slides.html#introduction",
+    "title": "My academic Journey",
+    "section": "Introduction",
+    "text": "Introduction\nMy name is Hillary Kouokam Metcheka AKA HillaryVIP. Welcome to the story of my academic journey. I just graduated in June 2025 from the University of Oregon and now I am getting my masters at Georgetown University. This slide deck is powered by Quarto + Reveal.js.\nWe reference Bishop (Bishop 2006) to show proper citation use."
+  },
+  {
+    "objectID": "slides/slides.html#graduation-highlights",
+    "href": "slides/slides.html#graduation-highlights",
+    "title": "My academic Journey",
+    "section": "Graduation Highlights",
+    "text": "Graduation Highlights\nTwo photos from my graduation:\n\n\n\nGraduation Photoshoot, Eugene, OR\n\n\n\n\n\nGraduation Photoshoot, Eugene, OR"
+  },
+  {
+    "objectID": "slides/slides.html#key-notes",
+    "href": "slides/slides.html#key-notes",
+    "title": "My academic Journey",
+    "section": "Key notes",
+    "text": "Key notes\n\nConsistency is key\n\nClear communication of results matters\n\nDo what you love and passionnated about\nMake time for yourself.\n\n\n\n\n\n\n\n\n\nBishop, Christopher M. 2006. Pattern Recognition and Machine Learning. Springer."
+  }
+]

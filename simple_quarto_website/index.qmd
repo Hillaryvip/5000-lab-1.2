@@ -1,0 +1,78 @@
+---
+title: "simple_quarto_website"
+toc: true
+---
+
+# Welcome to Hillary VIP's work
+
+This page shows the required elements for **Component 4**.  
+We cite Bishop [@bishop2006pattern] and Friedman–Hastie–Tibshirani [@friedman2001elements].
+
+> “Clear structure and reproducibility are key to professional data science.”
+
+## Overview 
+
+- Mathematic example  
+- Graduation day  
+- Professional goal moving forward  
+
+Inline math example: $E = mc^2$  
+
+Display equation:  
+
+$$
+\mathrm{argmin}_{\theta} \; \mathcal{L}(\theta) = \frac{1}{n}\sum_{i=1}^{n} \ell\big(f_\theta(x_i), y_i\big)
+$$
+
+A simple markdown table:  
+
+| Metric | Train | Test |
+|:------:|:-----:|:----:|
+| Acc.   | 0.94  | 0.91 |
+| F1     | 0.92  | 0.89 |
+
+A footnote reference.[^1]
+
+## Two-Column Section 
+
+
+::: {.columns}
+::: {.column width="50%"}
+### Left Column 
+
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
+:::
+::: {.column width="50%"}
+### Right Column 
+
+
+Suspendisse potenti. Nam malesuada eros vitae posuere nunc.  
+:::
+:::
+
+## Media of Graduation 
+
+### Images 
+
+![Graduation Day](images/vipimg1.jpg){width=60%}  
+![Graduation Day](images/vipimgg22.jpg){width=60%}   
+
+### Video 
+
+<video src="slides/vipvdeo1.mp4" width="640" controls></video>  
+
+
+## Diagram (H2)
+
+```{mermaid}
+flowchart LR
+  A[Data] --> B[Preprocess]
+  B --> C{Model?}
+  C -->|Classical| D[Logistic Regression]
+  C -->|Tree| E[Random Forest]
+  D --> F[Evaluate]
+  E --> F
+
+[^1]: The graduation images and video included in this page are from my own ceremony, serving as both a personal milestone and a professional motivation to continue excelling in data science.
+
